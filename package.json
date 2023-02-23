@@ -1,7 +1,6 @@
 {
   "name": "circle_color_game",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -16,7 +15,12 @@
     "url": "https://github.com/Alena18/Circle_color_game/issues"
   },
   "homepage": "https://github.com/Alena18/Circle_color_game#readme",
-  "dependencies": {
-    "jest": "^29.4.3"
-  }
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "jest-environment-jsdom": "^29.4.3"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "description": ""
 }
